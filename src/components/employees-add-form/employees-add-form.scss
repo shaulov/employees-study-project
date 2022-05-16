@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .add-form {
     margin-top: 20px;
     input {
@@ -8,9 +10,9 @@
 
 .app-add-form {
     margin-top: 30px;
-    padding: 25px;
-    background-color: #3d5a80;
-    border-radius: 4px;
-    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
-    color: #fff;
+    padding: $default-padding;
+    background-color: $main-bg-color;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    color: $main-text-color;
 }
